@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="default">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rock paper scissors</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__left">
+        <img class="header__left--logo" src="./assets/logo.png" alt="">
+        <h2 class="header__left--title">Boring games</h2>
+        </div>
+        <div class="header__right">
+            <img class="header__right--burger" src="./assets/Burger.png" alt="">
+        </div>
+    </header>
+    <div class="container">
+        <div class="intro">
+        <section class="game-title">
+            <h1>ROCK PAPER SCISSORS</h1>
+            <button>Let's Play</button>
+        </section>
+        </div>
+<div class="game-screen fadeOut">
+        <div class="score">
+                <div class="score__block player-score">
+                    <h2 class="score__block--title">Player</h2>
+                    <p class="score__block--num">0</p>
+                </div>
+                <div class="score__block computer-score">
+                    <h2 class="score__block--title">Mr. bot</h2>
+                    <p class="score__block--num">0</p>
+                </div>
+        </div>
+        <div class="match">
+            <h2 class="match__winner">Choose an option :</h2>
+            <div class="hands">
+                <img class="player-hand" src="./assets/rock.png" alt="">
+                <img class="computer-hand" src="./assets/rock.png" alt="">
+            </div>
+            <div class="options">
+                <button class="rock">rock</button>
+                <button class="paper">paper</button>
+                <button class="scissors">scissors</button>
+            </div>
+        </div>
+    </div>
+</div>
+    
+<script src="app.js"></script>
+</body>
+</html>
