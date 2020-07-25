@@ -51,7 +51,7 @@ button {
 }
 
 .container {
-  height: 60vh;
+  height: 800px;
 }
 
 .container .intro {
@@ -137,7 +137,8 @@ button {
 .container .game-screen {
   -webkit-transition: opacity 0.5s ease-in-out;
   transition: opacity 0.5s ease-in-out;
-  margin-top: 150px;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .container .match {
@@ -192,6 +193,7 @@ button {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-bottom: 80px;
 }
 
 .container .match .options button {
