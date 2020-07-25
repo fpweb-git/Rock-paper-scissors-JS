@@ -1,5 +1,5 @@
 Rock paper scissors JS
 
-Training Javascrip
+Training Javascript
 
 https://fpweb-git.github.io/Rock-paper-scissors-JS/.
